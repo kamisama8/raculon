@@ -1,0 +1,110 @@
+
+
+body {
+    background-image: var(--background-image2);
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1 {
+    color: var(--title-color);
+}
+
+main {
+    padding: 8px;
+    background-color: var(--background-color);
+    background-image: var(--background-image);
+    /*max-width: 800px;
+    min-width: 600px;*/
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+table, td, th {
+    border: 3.2px var(--table-result-border-color)ridge; /*solid; ridge; groove;   */
+    border-collapse: collapse; /*border-collapse: collapse;*/
+
+}
+
+main > section > table {
+    padding: 12px;
+    align-content: center;
+    text-align: center;
+    color: var(--result-number-color);
+    font-size: 2em;
+    width: 100%;
+}
+
+div {
+    padding: 10px;
+    align-content: center;
+    text-align: center;
+    color: var(--result-number-color);
+    font-size: 1em;
+    
+}
+
+
+main > section > table > tr > td, th {
+    padding: 5px;
+}
+
+
+
+main > section > p {
+    display: flex;
+    /*border-collapse: collapse;*/
+    text-align: center;
+    justify-content: center;
+    color: var(--result-text-color);
+    margin: 0;
+}
+
+#search-length {
+    
+    /*font-size: 2em;*/
+}
+
+#search-result {
+    /*font-family: serif;*/
+    /*font-family: helvetica;*/
+    font-family: helvetica;
+    font-size: 2em;
+    margin-bottom: 16px;
+}
+
+
+#search {
+    padding: 6px;
+    display: flex;
+    width: 20vh;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#search:focus {
+    border-color: var(--input-text-search-border-color);
+}
+
+
+
+:root {
+    font-family: calisto mt;
+    --background-color: #000228; /* #000228 */
+    --background-image: url("images/bk.jpg");
+    --background-image2: url("images/bk2.jpg");
+
+    --result-text-color: #D7894B; /* #D7894B */
+    --result-number-color: #FFCC29; /* #AFEEEE  #EFE646  #00FA9A  */
+    --table-result-border-color: gray; /* #718FC8  #B16F11 #FFCC29 */
+    --placeholder-text-color: #565A66;
+    --input-text-search-border-color: #2F3555; /* #2F3555;             */
+    --title-color: #FFFBF9;
+}
