@@ -2,7 +2,7 @@
 
 body {
     background-image: var(--background-image2);
-    background-color: var(--background-color);
+    /*background-color: var(--background-color);*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,7 +16,7 @@ h1 {
 
 main {
     padding: 8px;
-    background-color: var(--background-color);
+    /*background-color: var(--background-color);*/
     background-image: var(--background-image);
     /*max-width: 800px;
     min-width: 600px;*/
@@ -97,7 +97,7 @@ main > section > p {
 
 :root {
     font-family: calisto mt;
-    --background-color: #000228; /* #000228 */
+    /*--background-color: #000228; /* #000228 */
     --background-image: url("images/bk.jpg");
     --background-image2: url("images/bk2.jpg");
 
